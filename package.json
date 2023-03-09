@@ -1,17 +1,30 @@
 {
+  "version": "0.0.3",
   "name": "co-op",
   "displayName": "co-op",
+  "description": "",
   "author": "rik vermeulen",
   "license": "MIT",
   "publisher": "rikvermeulen",
-  "description": "",
-  "version": "0.0.2",
+  "icon": "assets/images/icon.png",
+  "preview": true,
+  "keywords": [
+    "typescript",
+    "javascript"
+  ],
   "engines": {
     "vscode": "^1.76.0"
   },
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rikvermeulen/vscode-co-op"
+  },
+  "bugs": {
+    "url": "https://github.com/rikvermeulen/vscode-co-op/issues"
+  },
   "main": "./dist/extension.js",
   "activationEvents": [],
   "contributes": {
